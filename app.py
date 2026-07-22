@@ -26,12 +26,12 @@ st.header("Web page Input")
 with st.form("web_input_form"):
     name = st.text_input(
         "Name:",
-        value="Carl"
+        value="Raf"
     )
 
     favorite_color = st.text_input(
         "Favorite Color:",
-        value="Blue"
+        value="Purple"
     )
 
     st.text_input(
